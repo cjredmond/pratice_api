@@ -13,7 +13,7 @@ SECRET_KEY = 'dy3(jpkfp4$)f@0258r7)5x#pl_7*$eyjur&oniwwmwwj_gltn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fierce-mountain-11501.herokuapp.com/']
 
 
 # Application definition
