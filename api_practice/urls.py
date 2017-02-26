@@ -1,8 +1,8 @@
 
 from django.conf.urls import url
 from django.contrib import admin
-from sample.views import PersonListCreateAPIView, PersonDetailUpdateDestroyAPIView,
-FreeAgentListCreateAPIView, FreeAgentDetailUpdateDestroyAPIView, PackersPlayerListCreateAPIView,
+from sample.views import PersonListCreateAPIView, PersonDetailUpdateDestroyAPIView, \
+FreeAgentListCreateAPIView, FreeAgentDetailUpdateDestroyAPIView, PackersPlayerListCreateAPIView, \
 PackersPlayerDetailUpdateDestroyAPIView
 
 urlpatterns = [
