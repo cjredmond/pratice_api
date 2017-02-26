@@ -13,16 +13,16 @@ class PersonDetailUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
 
 class FreeAgentListCreateAPIView(ListCreateAPIView):
     queryset = FreeAgent.objects.all()
-    serializer_class = PersonSerializer
+    serializer_class = FreeAgentSerializer
 
 class FreeAgentDetailUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = FreeAgent.objects.all()
-    serializer_class = PersonSerializer
+    serializer_class = FreeAgentSerializer
 
 class PackersPlayerListCreateAPIView(ListCreateAPIView):
     queryset = PackersPlayer.objects.all()
-    serializer_class = PersonSerializer
+    serializer_class = PackersPlayerSerializer
 
 class PackersPlayerDetailUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = PackersPlayer.objects.all()
-    serializer_class = PersonSerializer
+    serializer_class = PackersPlayerSerializer
